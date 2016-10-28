@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_new_post"
+        android:icon="@mipmap/new_post"
+        android:title="New Post"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/menu_user_list"
+        android:icon="@mipmap/ic_launcher"
+        android:title="All Users"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_favorite_list"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Favorite Users"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_post_feed"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Post Feed"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_edit_profile"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Edit Profile"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Sign Out"
+        app:showAsAction="never" />
+
+</menu>

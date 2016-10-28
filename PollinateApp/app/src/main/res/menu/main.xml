@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menu_view_events"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Events"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_new_event"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Post New Event"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_event_prefs"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Event Preferences"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_all_users"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Organizations"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_tutorial"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Tutorial"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Sign Out"
+        app:showAsAction="never" />
+
+</menu>
